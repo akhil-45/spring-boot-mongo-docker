@@ -14,7 +14,7 @@ kind: ReplicationController
 metadata:
   name: spring-controller
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     app: springboot
   template:
